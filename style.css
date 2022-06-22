@@ -1,0 +1,387 @@
+
+ html { 
+  background: url(images/template/bgTest.PNG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+
+body{
+margin: 0;
+padding: 0;
+
+}
+
+
+.zoom {
+
+
+  transition: transform .2s; 
+  /* Animation */
+
+  /* margin: 0 auto; */
+}
+
+.myBtn:hover{
+
+  cursor: pointer;
+}
+
+.zoom:hover {
+  transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+}
+
+
+ul {
+  color: rgba(255,255,255,0.8);;
+  list-style: none;
+  
+  
+  
+}
+
+.container {
+  border: solid 1px #ccc;
+  position: relative; 
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+
+}
+
+.container43 {
+  border: solid 1px #ccc; 
+  position: relative; 
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75%; /* 16:9 Aspect Ratio */
+  overflow-y: auto;
+            overflow-x: hidden;
+}
+
+.responsive-unity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+iframe.p5{
+  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+ padding: 0;
+ margin: 0;
+ border: none;
+}
+
+iframe.youTube{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  
+ 
+}
+
+img.portfolio{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  /* padding-bottom: 25px; */
+}
+
+
+
+
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav{
+  /* border:1px solid #ccc; */
+  /* border-width:1px 0; */
+  list-style:none;
+  text-align:center;
+  padding-top: 25px;
+
+}
+
+.nav li{
+  display:inline;
+  padding:0;
+  /* padding: 14px 16px; */
+ 
+}
+
+a { 
+
+  color: aqua;
+}
+
+li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+transform: scale(1.07);
+ 
+  
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(255,255,255,0.4);;
+  /* border: 1px solid rgba(255,255,255,0.4);; */
+  border-radius: 15px;
+
+  
+
+}
+
+li a.active {
+  background-color: rgba(255,255,255,0.8);;
+  /* border: 1px solid rgba(255,255,255,0.8);; */
+  border-radius: 15px;
+  color: black;
+}
+
+.logo{
+  margin-top: 16px;
+}
+
+.center {
+  
+  text-align: center;
+  clear: right;
+}
+
+hr{
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+  clear: both;
+}
+
+
+
+
+.border {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 22%;
+  margin-left: 22%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+img.left{
+  float: left;
+  /* margin-right: 30px; */
+  /* margin-top: 8px; */
+  /* margin-left: 30px;  */
+  padding-bottom: 20px;
+
+ 
+}
+
+img.leftMargin{
+  float: left;
+  margin-right: 30px; 
+  margin-top: 10px;
+  /* margin-left: 30px;  */
+}
+
+img.right{
+  float: right;
+  /* margin-right: 30px; */
+  /* margin-left: 30px; */
+  padding-bottom: 20px;
+
+}
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1
+  {
+    /* margin-top: 4%; */
+    margin-bottom: 4%;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: white;
+
+    text-align: center;
+    clear: left;
+  }
+
+  h2
+  {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 42px;
+  }
+
+p 
+  {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  p.invisible
+  {
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(0,0,0,0.0);
+    font-size: 8px;
+    text-align: left;
+    line-height: 1;
+
+  }
+
+  p.center 
+  {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+
+  }
+
+
+  p.left{
+    float: left;
+margin-right: 55%;
+width: 45%;
+
+
+  }
+
+  p.right{
+    
+    margin-left: 55%;
+    width: 45%;
+
+  
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position:fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  padding-bottom: 100px;
+  padding-left: 26%;
+  padding-right: 25%;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+  /* float: center; */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: rgba(0,0,0,0.8);;
+  border-radius: 20px;
+  padding-left: 40px; 
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+.modal-content p {
+font-size: 20px;
+text-align: left;
+
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+  button {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
