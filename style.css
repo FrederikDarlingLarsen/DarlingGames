@@ -1,4 +1,39 @@
 
+
+form {
+  /* border: 3px solid #f1f1f1; */
+  font-family: Arial;
+}
+
+.containerForm {
+  padding: 20px;
+  /* background-color: #f1f1f1; */
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
  html { 
   background: url(images/template/bgTest.PNG) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -15,21 +50,14 @@ padding: 0;
 }
 
 
-.zoom {
 
-
-  transition: transform .2s; 
-  /* Animation */
-
-  /* margin: 0 auto; */
-}
 
 .myBtn:hover{
 
   cursor: pointer;
 }
 
-.zoom:hover {
+.myBtn:hover {
   transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   
 }
@@ -107,6 +135,14 @@ img.portfolio{
   height: 100%;
   border: none;
   /* padding-bottom: 25px; */
+}
+
+
+
+img.gallery{
+
+  width: 100%;
+  
 }
 
 
@@ -360,6 +396,9 @@ text-align: left;
   cursor: pointer;
 }
 
+.wrap{
+  margin: 0 auto;
+}
 
 
   button {
@@ -367,6 +406,9 @@ text-align: left;
     padding: 0;
     margin: 0;
     vertical-align: top;
+    width: 29%;
+    margin: 20px;
+  transition: transform .2s; 
 }
 
 
