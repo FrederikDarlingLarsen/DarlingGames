@@ -1,2 +1,0 @@
-# DarlingGames
-My professional website
