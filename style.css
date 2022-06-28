@@ -142,6 +142,8 @@ img.portfolio{
 img.gallery{
 
   width: 100%;
+
+ border:1px solid #ccc;
   
 }
 
@@ -174,7 +176,7 @@ li {
 
 a { 
 
-  color: aqua;
+  color: white;
 }
 
 li a {
@@ -255,6 +257,7 @@ img.leftMargin{
   margin-right: 30px; 
   margin-top: 10px;
   /* margin-left: 30px;  */
+  border:1px solid #ccc;
 }
 
 img.right{
@@ -300,16 +303,16 @@ h1
 
 p 
   {
-    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     line-height: 1.6;
   }
 
   p.invisible
   {
-    font-family: "Times New Roman", Times, serif;
+    /* font-family: "Times New Roman", Times, serif; */
     color: rgba(0,0,0,0.0);
     font-size: 8px;
     text-align: left;
@@ -319,7 +322,7 @@ p
 
   p.center 
   {
-    font-family: "Times New Roman", Times, serif;
+    /* font-family: "Times New Roman", Times, serif; */
     color: white;
     font-size: 20px;
     text-align: center;
