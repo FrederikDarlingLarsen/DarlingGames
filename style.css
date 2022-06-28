@@ -143,8 +143,7 @@ img.gallery{
 
   width: 100%;
 
- border:1px solid #ccc;
-  
+  border:2px solid #fff;
 }
 
 
@@ -257,7 +256,7 @@ img.leftMargin{
   margin-right: 30px; 
   margin-top: 10px;
   /* margin-left: 30px;  */
-  border:1px solid #ccc;
+  border:2px solid #fff;
 }
 
 img.right{
@@ -298,7 +297,7 @@ h1
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
-    font-size: 42px;
+    font-size: 36px;
   }
 
 p 
