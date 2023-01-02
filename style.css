@@ -64,6 +64,12 @@ padding: 0;
   
 }
 
+.myBtn{
+
+  border: none;
+  background: none;
+}
+
 .myBtn:hover{
 
   cursor: pointer;
