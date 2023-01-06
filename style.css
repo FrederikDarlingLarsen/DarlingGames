@@ -36,6 +36,7 @@ input[type=submit]:hover {
 
  html { 
   background: url(images/template/bgTest.PNG) no-repeat center center fixed; 
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,14 +71,22 @@ padding: 0;
   background: none;
 }
 
-.myBtn:hover{
 
-  cursor: pointer;
-}
 
 .myBtn:hover {
+  cursor: pointer;
   transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  
+}
+
+.indexBtn{
+
+  border: none;
+  background: none;
+}
+
+.indexBtn:hover {
+  cursor: pointer;
+  transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
